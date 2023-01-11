@@ -12,6 +12,15 @@ body {
   margin-right: auto;
 }
 
+.header :first-child {
+  max-width: 100px;
+  border: 0px;
+}
+
+.header :first-child:hover {
+  background-color: white;
+}
+
 .header a {
   width: 120px;
   line-height: 60px;
